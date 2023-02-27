@@ -62,6 +62,8 @@ button.addEventListener('click', function() {
         denied.classList.add('d-block');
         denied.classList.remove('hidden');
 
+        message.innerHTML = "";
+
         console.log("Non puoi giocare");
     }
 })

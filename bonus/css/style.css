@@ -14,6 +14,10 @@ body {
     text-align: center;
 }
 
+.input h4 {
+    margin-top: 10px;
+}
+
 .d-block {
     display: block;
 }
@@ -34,11 +38,14 @@ body {
     display: flex;
     justify-content: space-between;
     height: calc(100vh - 100px);
+    padding-top: 20px;
 }
 
 .winner {
     width: 20%;
     text-align: center;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
 }
 
 .side {
