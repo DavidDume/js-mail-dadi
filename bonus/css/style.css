@@ -12,3 +12,19 @@ body {
     margin-top: 30px;
     text-align: center;
 }
+
+.d-block {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+.approved {
+    color: green;
+}
+
+.denied {
+    color: red;
+}
