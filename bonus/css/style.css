@@ -9,7 +9,8 @@ body {
 }
 
 .input {
-    margin-top: 30px;
+    height: 100px;
+    padding-top: 40px;
     text-align: center;
 }
 
@@ -27,4 +28,40 @@ body {
 
 .denied {
     color: red;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    height: calc(100vh - 100px);
+}
+
+.winner {
+    width: 20%;
+    text-align: center;
+}
+
+.side {
+    width: 40%;
+    text-align: center;
+}
+
+.dices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.side i {
+    font-size: 70px;
+    padding: 10px;
+}
+
+.inactive {
+    opacity: 0.5;
+}
+
+.active {
+    opacity: 1;
 }
