@@ -25,4 +25,6 @@ if(exists) {
     } else {
         console.log("pareggio");
     }
+} else {
+    console.log("Email non esiste");
 }
