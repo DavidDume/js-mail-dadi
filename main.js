@@ -7,5 +7,8 @@ for(let i = 0; i < emails.length; i++) {
     //verifico se l'email corrente è uguale a userEmail
     if(userEmail == emails[i]) {
         console.log("puoi giocare");
+        let dadiPc = Math.floor(Math.random() * (7 - 1) + 1); // genera numero random tra 1 e 6
+        let dadiUser = Math.floor(Math.random() * (7 - 1) + 1 );
+        console.log(dadiPc, dadiUser);
     }
 }
